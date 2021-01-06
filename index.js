@@ -5,10 +5,10 @@ const app = express();
 const mysql = require('mysql');
 
 const db = mysql.createPool({
-    host: "localhost",
-    user: "root",
-    password: "root",
-    database: "pizzor",
+    host: "us-cdbr-east-02.cleardb.com",
+    user: "bd8b92013b46df",
+    password: "d66ea7f9",
+    database: "heroku_d56fb079c2635f9",
 });
 
 app.use(express.static("public"));
